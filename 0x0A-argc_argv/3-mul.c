@@ -9,13 +9,14 @@
  * Return: If the program receives two arguments - 0
  * if the program does not return two arguments - 1
  */
-int main(int argc, char *argv[])
+
+int main(int argc, char **argv)
 {
 	int num1, num2, result;
 
 	if (argc != 3)
 	{
-		printf("error\n");
+		printf("Error\n");
 			return (1);
 	}
 
